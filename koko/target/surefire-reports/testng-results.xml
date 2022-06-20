@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="24543" started-at="2021-01-06T05:05:42 EST" finished-at="2021-01-06T05:06:06 EST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="24543" started-at="2021-01-06T05:05:42 EST" finished-at="2021-01-06T05:06:06 EST">
+      <class name="org.rsaTest.DemoTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.rsaTest.DemoTest@72d818d1]" name="setup" is-config="true" duration-ms="7870" started-at="2021-01-06T05:05:42 EST" finished-at="2021-01-06T05:05:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.rsaTest.DemoTest@72d818d1]" name="flightTest" duration-ms="8692" started-at="2021-01-06T05:05:50 EST" data-provider="getData" finished-at="2021-01-06T05:05:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=DEL, origin=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.rsaTest.DemoTest@72d818d1]" name="flightTest" duration-ms="6156" started-at="2021-01-06T05:05:59 EST" data-provider="getData" finished-at="2021-01-06T05:06:05 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=MAA, origin=DEL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.rsaTest.DemoTest@72d818d1]" name="tearDown" is-config="true" duration-ms="1236" started-at="2021-01-06T05:06:05 EST" finished-at="2021-01-06T05:06:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rsaTest.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
